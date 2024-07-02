@@ -1,0 +1,21 @@
+Primeiro vamos a definição de programação funcional:
+
+    -Estados estaticos(isso quer dizer que durante a aplicaçao os dados não terão seus
+     valores alterados pela execução do programa e suas funcionalidades);
+
+    -Criação de novos dados, invés de alterar os estados dos dados, criaremos outros dados
+     utilizando os dados que temos como base;
+
+    -Funções como motores da aplicação(funcções podem ser compostas para criar outras funções,
+     funções são a principal maneira de interação com a aplicação, também se baseia em funções
+     matematicas);
+
+    -Funções puras(Funções que não possuem efeitos colaterais, não dependem de elementos externos
+     como variaveis, ou seja uma função retorna sempre o mesmo valor para a mesma entrada);
+
+     Comparações com programação orientada a objetos:
+
+     -Poo: Dinamica(pode alterar estados entre dados), Encapsulamento de funcionalidades em objetos;
+
+     -Funcional: Estatica(preferencia por imutabilidade),Funções puras e funçoes como motores;
+
