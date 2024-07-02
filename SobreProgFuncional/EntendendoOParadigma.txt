@@ -19,7 +19,3 @@ Primeiro vamos a definição de programação funcional:
 
      -Funcional: Estatica(preferencia por imutabilidade),Funções puras e funçoes como motores;
 
-
-Entendendo mais sobre funções:
-
-    -Toda função com retorno assume o alor de seu retorno;

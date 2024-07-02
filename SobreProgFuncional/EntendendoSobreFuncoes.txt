@@ -1,0 +1,52 @@
+Funções como valores:
+
+    -Qual o valor de uma função? funções que tem retorno assumem o valor de seu retorno,
+    por mais que seja um conceito mais basico sobre programação em si, muitas vezes esquecemos que
+    uma função assume o valor de seu retorno como por exemplo:
+
+        public int retornaDois(){
+            return 2;
+        }
+
+    a função retornaDois retorna o valor de 2, logo ela pode ser usada como uma "variavel"
+    do tipo int com o valor 2.
+
+    -Então podemos afirmar que qualquer função com retorno, toma forma de seu retorno.
+
+        public static int retornaNumero(int n){
+            return n;
+        }
+
+        public static int multiplica(int n, int x){
+            return n * x;
+        }
+
+        System.out.println(multplica(retornaNumero(10),5); retorno 50;
+
+
+Funções puras/impuras:
+
+  Função pura:
+    -O conceito de funções puras consiste em uma função sem efeitos colaterais ou seja:
+        uma função que não altere nem seja alterada por dados externos e também não trabalhe com
+        entrada e saida, leitura e escrita, ela não pode ser alterada por nada fora de seu escopo.
+        Exemplo:
+
+        public int soma(int a, int b){
+            return a + b;
+        }
+
+  Função impura:
+    -Diferentemente de uma função pura uma função impura além de alterar estados externos, também
+        depende de estados externos para executar, ou ainda altera estados e trabalha com entrada/saida
+        e ou leitura/escrita.
+        Exemplo:
+
+        int b = 10;
+
+        public int soma(int a){
+            b += a;
+            return b;
+        }
+
+        nesse caso além da função depender diretamente de da variavel externa b, ela ainda altera seu estado.

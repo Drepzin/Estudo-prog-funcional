@@ -1,0 +1,25 @@
+Funções como valores:
+
+    -Qual o valor de uma função? funções que tem retorno assumem o valor de seu retorno,
+    por mais que seja um conceito mais basico sobre programação em si, muitas vezes esquecemos que
+    uma função assume o valor de seu retorno como por exemplo:
+
+        public int retornaDois(){
+            return 2;
+        }
+
+    a função retornaDois retorna o valor de 2, logo ela pode ser usada como uma "variavel"
+    do tipo int com o valor 2.
+
+    -Então podemos afirmar que qualquer função com retorno, toma forma de seu retorno.
+
+        public static int retornaNumero(int n){
+            return n;
+        }
+
+        public static int multiplica(int n, int x){
+            return n * x;
+        }
+
+        System.out.println(multplica(retornaNumero(10),5); retorno 50;
+
